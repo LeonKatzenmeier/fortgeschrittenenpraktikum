@@ -148,7 +148,6 @@ Mehr zu dem Unterschied zwischen \textit{input} und \textit{include} gibt es \hr
 
 \section{Zusammenfassung}
 \subsection{}  Das will ich belegen \cite[p. 2]{erstesBuch}
-\subsection{} Das auch  \cite{link}
 
 
 
@@ -160,10 +159,13 @@ Mehr zu dem Unterschied zwischen \textit{input} und \textit{include} gibt es \hr
 
 %\nocite{zweitesBuch}
 \bibliography{praktikum.bib}
+\addcontentsline{toc}{section}{Literatur}
 
 \newpage
-\addcontentsline{toc}{section}{Abbildungsverzeichnis}
-\listoffigures
 
+\listoffigures %lof
+\addcontentsline{toc}{section}{Abbildungsverzeichnis}
+%\tableofcontents %toc
+%\listoftables %lot
 
 \end{document} 
